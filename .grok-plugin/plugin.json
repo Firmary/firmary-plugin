@@ -1,0 +1,17 @@
+{
+  "name": "firmary",
+  "version": "1.0.0",
+  "description": "Work with your firm's Firmary workspace — clients, documents, invoices, tasks, time, and workflows — through Firmary's official remote MCP server. Every read and change runs as the signed-in Firmary user and stays inside that user's existing permissions.",
+  "author": {
+    "name": "Firmary",
+    "url": "https://firmary.app"
+  },
+  "homepage": "https://firmary.app",
+  "repository": "https://github.com/Firmary/firmary-plugin",
+  "license": "MIT",
+  "keywords": [
+    "firmary",
+    "firmary client portal"
+  ],
+  "logo": "assets/logo.svg"
+}

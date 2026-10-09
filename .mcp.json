@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "firmary": {
+      "type": "http",
+      "url": "https://os.firmary.app/api/mcp"
+    }
+  }
+}
