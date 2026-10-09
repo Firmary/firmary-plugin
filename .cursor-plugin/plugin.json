@@ -1,0 +1,34 @@
+{
+  "name": "firmary",
+  "displayName": "Firmary",
+  "version": "1.0.0",
+  "minClientVersions": {
+    "cursor": "3.13.0",
+    "grokbot": "0.30.0",
+    "sand": "0.30.0"
+  },
+  "description": "Connect your firm's Firmary workspace so your agent can work with clients, documents, invoices, tasks, time, and workflows. You sign in with Firmary and approve the connection; every read and change runs as you and stays inside your existing Firmary permissions, and changes such as sending an invoice or messaging a client follow your firm's AI app policy and may require your approval. The connection is an OAuth authorization, so your Firmary password is never shared with the agent or its provider. In Grok Bot, privacy mode still controls whether your conversations are stored or used for training. Disconnect at any time in Firmary under Settings > AI apps.",
+  "author": {
+    "name": "Firmary"
+  },
+  "homepage": "https://firmary.app",
+  "repository": "https://github.com/Firmary/firmary-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "firmary",
+    "client portal",
+    "accounting",
+    "bookkeeping",
+    "tax",
+    "mcp"
+  ],
+  "category": "integrations",
+  "tags": [
+    "firmary",
+    "accounting",
+    "mcp"
+  ],
+  "mcpServers": "./mcp.json",
+  "skills": "./skills/"
+}
