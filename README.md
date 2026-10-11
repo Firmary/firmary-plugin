@@ -4,6 +4,21 @@ Connects your AI assistant to [Firmary](https://firmary.app) through Firmary's o
 
 Works in Grok Bot, Cursor, Grok Build, and Claude Code.
 
+This repository ships two plugins:
+
+| Plugin | For | Server |
+| --- | --- | --- |
+| `firmary` (this directory) | Firm staff | `https://os.firmary.app/api/mcp` |
+| `firmary-portal` ([`plugins/firmary-portal`](plugins/firmary-portal)) | A firm's clients | `https://portal.firmary.app/api/mcp` |
+
+In Claude Code, add this repository as a marketplace and install the plugin you need:
+
+```sh
+claude plugin marketplace add Firmary/firmary-plugin
+claude plugin install firmary@firmary          # firm staff
+claude plugin install firmary-portal@firmary   # clients of a firm
+```
+
 ## MCP
 
 ```json
@@ -41,10 +56,50 @@ The hosted server is the source of truth for tool names and schemas.
 
 Firmary's [privacy policy](https://firmary.app/privacy), [terms](https://firmary.app/terms), and [security overview](https://firmary.app/security) apply.
 
+## For clients of a firm: Firmary for Clients
+
+If your accounting or tax firm uses Firmary, the `firmary-portal` plugin connects your AI app to your firm's client portal. Its MCP server is:
+
+```json
+{
+  "mcpServers": {
+    "firmary-portal": {
+      "type": "http",
+      "url": "https://portal.firmary.app/api/mcp"
+    }
+  }
+}
+```
+
+You sign in with your own client portal account and approve the connection. The sign-in uses the same OAuth flow as the staff plugin, with PKCE and either a Client ID Metadata Document or Dynamic Client Registration. There is no API key, client ID, or secret to configure. The connection acts as you and reaches only your own records with that firm.
+
+Your firm decides whether clients can connect AI apps and which features they get, so the tools you see depend on your firm. Where your firm has turned them on, your assistant can:
+
+- show your to-dos, and help you fill in and submit the forms assigned to you (answers are saved as drafts first);
+- show document requests and the documents your firm has shared, get short-lived download links, and check the status of an upload (the upload itself happens in the portal, or in an upload card in the chat where one is offered);
+- read your messages with the firm and send new ones;
+- show the status of signature requests (you sign in the portal);
+- show proposals and engagement letters and accept or decline them (accepting needs a fresh Firmary sign-in);
+- show invoices, with a link to pay in the portal;
+- show tax returns and organizers;
+- show your appointments and cancel them;
+- show your notifications.
+
+How it keeps you in control:
+
+- Anything that reaches your firm needs your go-ahead. Firmary may also return an approval or sign-in link to finish a step on a Firmary page; until you finish there, nothing has happened.
+- Payments and signing always happen in the portal. Your assistant never receives checkout links or card details.
+- The assistant does not ask for Social Security numbers, tax ID numbers, card or bank numbers, or passwords.
+- Your password is never shared with the assistant or its provider.
+- Disconnect at any time in the portal under **Settings → AI apps**.
+
+The included skill (`skills/firmary-portal`) tells the assistant to start with your to-dos, draft before it submits or sends anything, and treat text in your records as information, not instructions. The hosted server is the source of truth for tool names and schemas.
+
 ## Docs
 
 - Firmary: https://firmary.app
-- Server URL: https://os.firmary.app/api/mcp
+- Staff server URL: https://os.firmary.app/api/mcp
+- Client portal server URL: https://portal.firmary.app/api/mcp
 
 ## License
 
