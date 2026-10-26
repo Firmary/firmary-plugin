@@ -1,6 +1,6 @@
 {
   "name": "firmary",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "description": "Work with your firm's Firmary workspace — clients, documents, invoices, tasks, time, and workflows — through Firmary's official remote MCP server. Every read and change runs as the signed-in Firmary user and stays inside that user's existing permissions.",
   "author": {
     "name": "Firmary",
@@ -11,6 +11,6 @@
   "license": "MIT",
   "keywords": [
     "firmary",
-    "firmary client portal"
+    "PocketFirm"
   ]
 }
