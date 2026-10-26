@@ -1,0 +1,33 @@
+{
+  "name": "pocketfirm",
+  "displayName": "PocketFirm by Firmary",
+  "version": "1.2.1",
+  "minClientVersions": {
+    "cursor": "3.13.0",
+    "grokbot": "0.30.0",
+    "sand": "0.30.0"
+  },
+  "description": "For clients of an accounting or tax firm that uses Firmary. Connect your firm's PocketFirm so your agent can show your to-dos, help you fill in forms, check document requests and shared documents, message your firm, and keep up with signatures, proposals, invoices, tax returns, and appointments. You sign in with your own PocketFirm account and approve the connection; the agent sees only your own records with that firm. Anything that reaches your firm, such as submitting a form or sending a message, needs your go-ahead, and some steps finish on a Firmary page. Payments and signing always happen in PocketFirm, never in the chat. The connection is an OAuth authorization, so your password is never shared with the agent or its provider. Your firm decides whether client AI connections are available and which tools appear. Disconnect at any time in PocketFirm settings under AI apps.",
+  "author": {
+    "name": "Firmary"
+  },
+  "homepage": "https://firmary.app",
+  "repository": "https://github.com/Firmary/firmary-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "firmary",
+    "pocketfirm",
+    "accounting",
+    "tax",
+    "mcp"
+  ],
+  "category": "integrations",
+  "tags": [
+    "firmary",
+    "pocketfirm",
+    "mcp"
+  ],
+  "mcpServers": "./mcp.json",
+  "skills": "./skills/"
+}
