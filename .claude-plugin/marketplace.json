@@ -12,9 +12,9 @@
       "description": "For firm staff. Work with your firm's Firmary workspace through https://os.firmary.app/api/mcp."
     },
     {
-      "name": "firmary-portal",
-      "source": "./plugins/firmary-portal",
-      "description": "For a firm's clients. Work with your firm through its Firmary client portal at https://portal.firmary.app/api/mcp."
+      "name": "pocketfirm",
+      "source": "./plugins/pocketfirm",
+      "description": "For a firm's clients. Work with your firm through PocketFirm at https://portal.firmary.app/api/mcp."
     }
   ]
 }
