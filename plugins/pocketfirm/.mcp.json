@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pocketfirm": {
+      "type": "http",
+      "url": "https://portal.firmary.app/api/mcp"
+    }
+  }
+}

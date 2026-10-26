@@ -1,0 +1,20 @@
+{
+  "name": "firmary",
+  "description": "Firmary's official plugins: one for firm staff and one for the firm's clients.",
+  "owner": {
+    "name": "Firmary",
+    "url": "https://firmary.app"
+  },
+  "plugins": [
+    {
+      "name": "firmary",
+      "source": ".",
+      "description": "For firm staff. Work with your firm's Firmary workspace through https://os.firmary.app/api/mcp."
+    },
+    {
+      "name": "pocketfirm",
+      "source": "./plugins/pocketfirm",
+      "description": "For a firm's clients. Work with your firm through PocketFirm at https://portal.firmary.app/api/mcp."
+    }
+  ]
+}
