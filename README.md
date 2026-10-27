@@ -48,4 +48,4 @@ Firmary's [privacy policy](https://firmary.app/privacy), [terms](https://firmary
 
 ## License
 
-Proprietary. See [LICENSE](LICENSE).
+Proprietary. See [LICENSE](LICENSE). This public package contains only integration manifests, connection settings, user-facing skill instructions and branding. The hosted application implementation is maintained privately.

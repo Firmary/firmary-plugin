@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.2
+
+- Proprietary distribution terms replace MIT for this release.
+- Package contains integration metadata, connection settings, skills and branding; the hosted application implementation remains private.
+
 ## 1.3.1
 
 - Staff plugin only. Adds the `get-started` skill (what you can ask for, household setup, how approvals work).
