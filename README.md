@@ -48,4 +48,4 @@ Firmary's [privacy policy](https://firmary.app/privacy), [terms](https://firmary
 
 ## License
 
-MIT
+Proprietary. See [LICENSE](LICENSE).
