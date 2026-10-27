@@ -13,7 +13,7 @@
   },
   "homepage": "https://firmary.app",
   "repository": "https://github.com/Firmary/firmary-plugin",
-  "license": "MIT",
+  "license": "LicenseRef-Proprietary",
   "logo": "assets/logo.svg",
   "keywords": [
     "firmary",
