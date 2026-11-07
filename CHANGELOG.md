@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.3
+
+- Brand icons are PNG instead of SVG so the package contains only file types the Claude plugin directory accepts from every publisher.
+
 ## 1.3.2
 
 - Proprietary distribution terms replace MIT for this release.
