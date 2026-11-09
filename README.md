@@ -31,6 +31,24 @@ Changes can have effects outside Firmary, such as an email to a client or a sign
 
 The hosted server is the source of truth for tool names and schemas.
 
+## Skills
+
+Skills tell your assistant how to carry out common firm work step by step with Firmary's tools. They add no access: Firmary still checks every call against your permissions and your firm's AI app policy.
+
+| Skill | Use it to |
+| --- | --- |
+| `get-started` | Learn what you can ask for and how approvals work |
+| `firmary` | Look up and update the firm's clients, documents, invoices, tasks and time |
+| `firmary-onboard` | Start onboarding a client from an accepted engagement |
+| `firmary-collect-review` | Check what clients sent against what the firm asked for |
+| `firmary-manage-work` | Route work, check what is blocked and hand work over for review |
+| `firmary-engagement-signature` | Follow engagement letters through signature |
+| `firmary-billing-follow-up` | Review invoices and prepare polite payment follow-ups |
+| `firmary-daily-oversight` | Get a cited briefing across your clients' work |
+| `firmary-firm-setup` | Set up a new firm and bring in its client list |
+
+In Claude Code, run a skill as `/firmary:<skill>`, or just ask and the assistant picks the right one.
+
 ## Access and data
 
 - Every call runs as the Firmary user who connected and is limited to what that user can already see and do in Firmary.
@@ -40,6 +58,10 @@ The hosted server is the source of truth for tool names and schemas.
 - Disconnect at any time in Firmary under **Settings → AI apps**.
 
 Firmary's [privacy policy](https://firmary.app/privacy), [terms](https://firmary.app/terms), and [security overview](https://firmary.app/security) apply.
+
+## For a firm's clients
+
+This plugin is for firm staff. A firm's clients use PocketFirm, which has its own plugin at [Firmary/pocketfirm-plugin](https://github.com/Firmary/pocketfirm-plugin) and connects to `https://app.pocketfirm.app/api/mcp`.
 
 ## Docs
 
