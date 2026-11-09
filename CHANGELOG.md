@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.0
+
+- Adds the seven Firmary workflow skills: onboarding, collection review, work management, engagement signatures, billing follow-up, daily oversight and firm setup. They are the same skills as the Claude plugin firms download from Firmary, generated from one source, with tool guidance kept as metadata and no pre-approved tools.
+- README lists every skill and points a firm's clients to PocketFirm's own plugin (`app.pocketfirm.app`).
+- All manifests (Claude, Cursor, Grok) are at 1.4.0.
+
 ## 1.3.3
 
 - Brand icons are PNG instead of SVG so the package contains only file types the Claude plugin directory accepts from every publisher.
