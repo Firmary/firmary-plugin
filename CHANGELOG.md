@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.1
+
+- `firmary-billing-follow-up`: asking to prepare or draft a reminder stops at the draft; nothing is sent until you ask to send it.
+- `firmary-daily-oversight`: before copying a client's details into a shared draft, the assistant confirms in Firmary that everyone the draft is shared with can open that client; otherwise it keeps the draft private to you or leaves that client out.
+- All manifests (Claude, Cursor, Grok) are at 1.4.1.
+
 ## 1.4.0
 
 - Adds the seven Firmary workflow skills: onboarding, collection review, work management, engagement signatures, billing follow-up, daily oversight and firm setup. They are the same skills as the Claude plugin firms download from Firmary, generated from one source, with tool guidance kept as metadata and no pre-approved tools.

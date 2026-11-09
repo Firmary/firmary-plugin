@@ -2,7 +2,7 @@
 name: firmary-daily-oversight
 description: "Build a cited Firmary portfolio briefing, meeting evidence pack, decision record or staff handover across authorized bookkeeping and tax Engagements. Use for daily oversight or understanding blockers; not for deeper financial advice, invented savings or automatic publication to clients."
 metadata:
-  firmary-source-digest: "sha256:a8cd002f79feb254528094f607117c2e5b21bec8eae54ebd67c83bd6da4996b2"
+  firmary-source-digest: "sha256:97d7dc8f2e5ec7bcf1786778d7c2453923a3500d20df741798f22dcb596ad449"
   firmary-package-version: "1.2.1"
   firmary-tools: "search, fetch, firmary_catalog_search, firmary_catalog_describe, firmary_catalog_read, firmary_operation_run, firmary_document_return"
 ---
@@ -12,7 +12,7 @@ Resolve the audience, relevant Clients/Engagements and actual period/cohort from
 1. Discover owning Client, Engagement, work, request, Form, communication, signature, billing and analytics read operations. Describe current schemas and follow every cursor. Search reports one source family per page and unavailable families; include all pages/families and say when coverage is incomplete. Fetch independently checks access and provides metadata citations, not full document content or Form answers.
 2. Separate source facts, derived conclusions, missing/ambiguous evidence and proposed actions. Preserve object/version, Client/period and observation time. Missing dates remain unknown. Distinguish waiting for a decision, running, completed, failed and unknown; a provider receipt is not a domain outcome.
 3. Give bookkeeping and tax Engagements equal consideration. List actual blockers, accountable owners, trusted dates and exact pending decisions with native links. An empty workspace explains required records instead of inventing insight. Use eligible cohort/period denominators; never turn synthetic timings into savings claims.
-4. For a staff draft (a ChatGPT Page, a Claude artifact or Doc, or an Office file), choose client/Engagement brief, meeting agenda/evidence pack, unresolved-decisions record or staff handover. Include audience, Client/period, refreshed-at time, sources, uncertainties and decision/result links. Check the draft's actual sharing in its host before copying data; Firmary remains authoritative. Revocation cannot retract copied content. Writing a schedule into a draft doesn't set up a recurring task, and a copied draft won't update itself.
+4. For a staff draft (a ChatGPT Page, a Claude artifact or Doc, or an Office file), choose client/Engagement brief, meeting agenda/evidence pack, unresolved-decisions record or staff handover. Include audience, Client/period, refreshed-at time, sources, uncertainties and decision/result links. Check the draft's actual sharing in its host before copying data, and copy a Client's data in only after confirming in Firmary that every person the draft is shared with can open that Client; when that can't be confirmed, keep the draft private to the person who asked or leave that Client out. Firmary remains authoritative. Revocation cannot retract copied content. Writing a schedule into a draft doesn't set up a recurring task, and a copied draft won't update itself.
 
 Return the briefing and coverage/freshness limits. Reviewed Client deliverables require the existing native document save/version/share workflow with an explicit audience and confirmed result; a generated draft alone is not delivery. Do not publish, schedule or share an artifact merely because a briefing was requested.
 
