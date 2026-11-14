@@ -70,4 +70,4 @@ This plugin is for firm staff. A firm's clients use PocketFirm, which has its ow
 
 ## License
 
-Proprietary. See [LICENSE](LICENSE). This public package contains only integration manifests, connection settings, user-facing skill instructions and branding. The hosted application implementation is maintained privately.
+[MIT](LICENSE). Copyright (c) 2026 Firmary. This public package contains only integration manifests, connection settings, user-facing skill instructions and branding. The hosted application implementation is maintained privately.
