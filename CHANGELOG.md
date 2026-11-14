@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.2
+
+- MIT license (copyright 2026 Firmary) replaces the proprietary distribution terms. Claude, Cursor, and Grok manifests declare `MIT`.
+- Adds `assets/logo-cursor.png` (512×512, the existing logo on a solid `#171715` plate) and points the Cursor manifest logo at it.
+- All manifests (Claude, Cursor, Grok) are at 1.4.2.
+
 ## 1.4.1
 
 - `firmary-billing-follow-up`: asking to prepare or draft a reminder stops at the draft; nothing is sent until you ask to send it.
