@@ -1,0 +1,5 @@
+# RoboRev settings for this repo. The review rules are in REVIEW.md, which RoboRev reads when review_guidelines is unset
+# (OpenQodex reads the same file). The agent, model and effort are set per machine in ~/.roborev/config.toml.
+# The skills and README are this package's product, so Markdown is reviewed. Brand images and the openqodex skill
+# (written by openqodex init) are not.
+exclude_patterns = ["assets/", ".claude/skills/openqodex/", ".agents/skills/openqodex/"]
